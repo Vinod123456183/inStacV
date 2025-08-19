@@ -1,0 +1,166 @@
+import React from "react";
+
+function App() {
+  return (
+    <div className="min-h-screen flex justify-center bg-gray-100 py-10">
+      {/* Resume Container */}
+      <div className="bg-white w-[965px] px-12 py-14 shadow-md">
+        
+        {/* Header */}
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold text-black">VINOD SINGH BARTI</h1>
+          <p className="text-sm font-semibold">GRAPHIC ERA HILL UNIVERSITY</p>
+          <div className="mt-1 flex  flex-wrap space-x-8 text-sm text-blue-900 font-semibold">
+            <a href="tel:+919455541392">+91-9455541392</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GFG</a>
+            <a href="#">GitHub</a>
+            <a href="#">LeetCode</a>
+            <a href="#">Portfolio</a>
+            <a href="#">GitHub</a>
+            <a href="#">LeetCode</a>
+            <a href="#">Portfolio</a>
+          </div>
+        </div>
+
+        {/* Two Column Layout */}
+        <div className="grid grid-cols-2 gap-8">
+          
+          {/* LEFT SIDE */}
+          <div className="space-y-6">
+            
+            {/* Experience */}
+            <section>
+              <h2 className="font-semibold text-2xl  border-b-2 border-black mb-2">EXPERIENCE</h2>
+              <p className="font-semibold">
+                Frontend-End Dev Intern <span className="font-normal">| Shadow Fox</span>
+              </p>
+              <p className="text-sm text-gray-700">Feb 2025 – Mar 2025 | Indore, India (Remote)</p>
+              <ul className="list-disc ml-5 text-sm mt-2 space-y-1">
+                <li>Research and development of Biomedical Signal Processing in collaboration with IIT Indore.</li>
+                <li>Worked with a team on design, development, and integration of signal processing.</li>
+                <li>Experience with performance analysis, optimizations, and benchmark evaluations.</li>
+              </ul>
+            </section>
+
+            {/* Technical Skills */}
+            <section>
+              <h2 className="font-bold border-b-2 font-semibold text-2xl  border-black mb-2">TECHNICAL SKILLS</h2>
+              <ul className="list-disc ml-5 text-sm space-y-1">
+                <li><span className="font-semibold">Programming Skills:</span> C, C++, Basic JAVA.</li>
+                <li><span className="font-semibold">Development Skills:</span> HTML, CSS, JAVASCRIPT, REACT, Material UI.</li>
+                <li><span className="font-semibold">Machine Learning:</span> Numpy, Pandas, Sk-Learn, ML Algos.</li>
+                <li><span className="font-semibold">Development Tools:</span> VS Code, Jupyter Notebook, Git, Google Colab.</li>
+                <li><span className="font-semibold">CS Fundamentals:</span> DBMS, OOPS, Data Structure and Algorithm, OS, Networking.</li>
+                <li><span className="font-semibold">Cyber Security:</span> Kali Linux, Ubuntu, Strom Breaker, Windows, etc.</li>
+              </ul>
+            </section>
+
+            {/* Honors and Awards */}
+            <section>
+              <h2 className="font-semibold text-2xl  border-b-2 border-black mb-2">HONORS AND AWARDS</h2>
+              <ul className="list-disc ml-5 text-sm space-y-1">
+                <li>Earned a Backend Development Certificate.</li>
+                <li>Earned Skill India Cybersecurity Certificate (Tech Mahindra).</li>
+                <li>LeetCode: Solved 300+ problems.</li>
+                <li>GeeksforGeeks: Solved 500+ problems.</li>
+                <li>Secured 3rd position in inter-school Badminton Championship.</li>
+              </ul>
+            </section>
+
+            {/* Personal Skills */}
+            <section>
+              <h2 className="font-semibold text-2xl  border-b-2 border-black mb-2">PERSONAL SKILLS</h2>
+              <ul className="list-disc ml-5 text-sm space-y-1">
+                <li>Leadership And Helping Nature</li>
+                <li>Hard And Smart Working</li>
+                <li>Confident And Honest</li>
+                <li>Ability To Work Independently</li>
+                <li>Eager To Learn New Things</li>
+              </ul>
+            </section>
+
+            {/* Hobbies */}
+            <section>
+              <h2 className="font-bold border-b-2 border-black mb-2 font-semibold text-2xl ">HOBBIES</h2>
+              <ul className="list-disc ml-5 text-sm space-y-1">
+                <li>Playing badminton and watching anime</li>
+                <li>Listening to Music and Bhagwat Gita while Coding</li>
+                <li>Learning New Technology and Helping others</li>
+                <li>Devoted about traveling to temples</li>
+              </ul>
+            </section>
+
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="space-y-6">
+            
+            {/* Education */}
+            <section>
+              <h2 className="font-semibold text-2xl  border-b-2 border-black mb-2">EDUCATION</h2>
+              <p className="font-semibold">B.Tech CSE <span className="font-normal">| Graphic Era Hill University</span></p>
+              <p className="text-sm text-gray-700 mb-2">July 2022 – July 2026</p>
+              <p className="font-semibold">Higher Secondary <span className="font-normal">| CBSE</span></p>
+              <p className="text-sm text-gray-700 mb-2">2021</p>
+              <p className="font-semibold">Matriculate <span className="font-normal">| CBSE</span></p>
+              <p className="text-sm text-gray-700">2018</p>
+            </section>
+
+            {/* Projects */}
+            <section>
+              <h2 className="font-semibold text-2xl border-b-2 border-black mb-2">PROJECTS</h2>
+              <div className="mb-3">
+                <p className="font-semibold">Advance UI Portfolio</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Created a complete UI portfolio using ReactJS.</li>
+                  <li>Used smooth animations, validation, and sub-components.</li>
+                  <li>Ensures full responsiveness across all devices.</li>
+                </ul>
+              </div>
+              <div className="mb-3">
+                <p className="font-semibold">Expense Tracker</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Developed a React expense tracker with Dark/Light mode.</li>
+                  <li>Efficiently tracked and categorized expenses.</li>
+                </ul>
+              </div>
+              <div className="mb-3">
+                <p className="font-semibold">ShopEase (E-commerce)</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Built an e-commerce platform using ReactJS.</li>
+                  <li>Implemented UI/UX best practices ensuring responsiveness.</li>
+                </ul>
+              </div>
+
+              <div className="mb-3">
+                <p className="font-semibold">ShopEase (E-commerce)</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Built an e-commerce platform using ReactJS.</li>
+                  <li>Implemented UI/UX best practices ensuring responsiveness.</li>
+                </ul>
+              </div>
+              <div className="mb-3">
+                <p className="font-semibold">ShopEase (E-commerce)</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Built an e-commerce platform using ReactJS.</li>
+                  <li>Implemented UI/UX best practices ensuring responsiveness.</li>
+                </ul>
+              </div>
+              <div className="mb-3">
+                <p className="font-semibold">ShopEase (E-commerce)</p>
+                <ul className="list-disc ml-5 text-sm space-y-1">
+                  <li>Built an e-commerce platform using ReactJS.</li>
+                  <li>Implemented UI/UX best practices ensuring responsiveness.</li>
+                </ul>
+              </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
